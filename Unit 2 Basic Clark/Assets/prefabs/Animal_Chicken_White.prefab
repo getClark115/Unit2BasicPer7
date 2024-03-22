@@ -1340,6 +1340,8 @@ GameObject:
   - component: {fileID: 5106764706292495271}
   - component: {fileID: 2824034893185951399}
   - component: {fileID: 5229582643959564434}
+  - component: {fileID: -6843144544659914676}
+  - component: {fileID: -7025667181919942625}
   m_Layer: 0
   m_Name: Animal_Chicken_White
   m_TagString: Untagged
@@ -1355,7 +1357,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9012015744662592047}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 3.072279, y: 2.0351524, z: -13.752206}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_ConstrainProportionsScale: 0
@@ -1369,7 +1371,7 @@ Transform:
   - {fileID: 7289431560218979854}
   - {fileID: 670471204875389514}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &5106764706292495271
 Animator:
   serializedVersion: 5
@@ -1414,5 +1416,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d4ba95af3e5d6df48acb5d250883cd0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &-6843144544659914676
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012015744662592047}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.0580163, y: 7.470952, z: 9.265031}
+  m_Center: {x: 0, y: 6.7045236, z: 1.4700359}
+--- !u!114 &-7025667181919942625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012015744662592047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe03380e487ea644a3dc84af821fd07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
