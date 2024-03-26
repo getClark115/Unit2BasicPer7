@@ -20,16 +20,18 @@ public class GameManager : MonoBehaviour
 
     public void AddLives(int value)
     {
-        {
-            lives += value; if (lives <= 0)
+           lives += value;
+            if (lives <= 0)
             {
                 Debug.Log("Game Over");
                 lives = 0;
 
             }
             Debug.Log("Lives = " + lives);
-        }
-
-
     }
+    public void AddScore(int value)
+    {
+        score += value; Debug.Log("Score = " + score);
+    }
+
 }
